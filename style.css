@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(255, 0, 212);
+}
+
+h1 {
+    text-align: center;
+    font-size: 100px;
+    color: blueviolet;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+li {
+    color: aqua;
+}
+
+li :nth-last-of-type(1) {
+    color: white;
+}
+
+.first {
+    color: rgb(0, 255, 140)
+}
+
+#cool {
+    color: yellow
+}
+
+/*comment*/
+
+.header {
+    color: red;
+}
+
+.card-img {
+    width: 100%
+        /*ONE OR THE OTHER */
+}
+
+.header-description {
+    color: pink;
+}
+
+.blog {
+    width: 600px;
+    height: 200px;
+    background-color: blanchedalmond;
+    margin: 10px auto;
+    border: 3px solid white;
+    padding: 30px 20px;
+    /*centers automatically , margin x auto centers objects. space between this element and next element.*/
+}
